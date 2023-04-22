@@ -2,6 +2,4 @@ export async function GET(request: Request) {
   return new Response("Hello, Next.js!");
 }
 
-export const config = {
-  runtime: "edge",
-};
+export const runtime = "edge";

@@ -1,9 +1,7 @@
 import { Inter } from "next/font/google";
 import Image from "next/image";
 
-export const config = {
-  runtime: "edge",
-};
+export const runtime = "experimental-edge";
 
 const inter = Inter({ subsets: ["latin"] });
 
